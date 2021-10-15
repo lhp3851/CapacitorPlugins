@@ -11,9 +11,43 @@ npx cap sync
 
 ## API
 
-<docgen-index></docgen-index>
+<docgen-index>
+
+* [`echo(...)`](#echo)
+* [`log(...)`](#log)
+
+</docgen-index>
 
 <docgen-api>
-<!-- run docgen to generate docs from the source -->
-<!-- More info: https://github.com/ionic-team/capacitor-docgen -->
+<!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
+
+### echo(...)
+
+```typescript
+echo(options: { value: string; }) => any
+```
+
+| Param         | Type                            |
+| ------------- | ------------------------------- |
+| **`options`** | <code>{ value: string; }</code> |
+
+**Returns:** <code>any</code>
+
+--------------------
+
+
+### log(...)
+
+```typescript
+log(options: { params: string; }) => any
+```
+
+| Param         | Type                             |
+| ------------- | -------------------------------- |
+| **`options`** | <code>{ params: string; }</code> |
+
+**Returns:** <code>any</code>
+
+--------------------
+
 </docgen-api>

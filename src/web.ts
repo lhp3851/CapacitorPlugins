@@ -7,4 +7,9 @@ export class CapacitorPluginsWeb extends WebPlugin implements CapacitorPluginsPl
     console.log('ECHO', options);
     return options;
   }
+
+  async log(options: { params: string }): Promise<void> {
+    console.log("log function from plugins", options)
+    return;
+  }
 }
