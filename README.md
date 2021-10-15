@@ -35,7 +35,6 @@ echo(options: { value: string; }) => any
 
 --------------------
 
-
 ### log(...)
 
 ```typescript
